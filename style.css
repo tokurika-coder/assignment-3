@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#heading{
+    font-family: 'Concert One', cursive;
+}
+.group{
+    background-color: white;
+}
+.group h2{
+    color: black;
+    text-align: center;
+}
+.menu{
+    margin-top: 74px;
+    margin-bottom: -10px;
+}
+.back{
+    margin: 20px;
+    background-color:navajowhite;
+    border: 1px solid grey;
+    text-align: left;
+}
+section h1{
+    text-align: center;
+}
+@media(max-width:767px){
+   .navbar{
+        height: 70px;
+    }
+    .group{
+        margin-top: 28px;
+    }
+}
+@media(min-width:992px){
+    .navbar-toggler{
+        display: none;
+    }
+    .group{
+        display: none;
+    }
+}
+@media(min-width:768px){
+    .navbar-toggler{
+        display: none;
+    }
+    .group{
+        display: none;
+    }
+}
